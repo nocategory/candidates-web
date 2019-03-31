@@ -1,7 +1,7 @@
 <template>
   <div class="sign">
     <SignHeader class="sign-header" :showLink="true">
-      <SignInForm class="header__form"></SignInForm>
+      <SignButtons class="header__signbuttons"></SignButtons>
     </SignHeader>
     <div class="sign__data" id="signUp">
       <SignUpForm></SignUpForm>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import SignInForm from '@/candidates/sign/shared/SignInForm';
+import SignButtons from '@/candidates/sign/shared/SignButtons';
 import SignUpForm from '@/candidates/sign/shared/SignUpForm';
 import SignHeader from '@/candidates/sign/shared/SignHeader';
 import SignSteps from '@/candidates/sign/shared/SignSteps';
@@ -20,7 +20,7 @@ import SignMarketing from '@/candidates/sign/shared/SignMarketing';
 
 export default {
   components: {
-    SignInForm,
+    SignButtons,
     SignUpForm,
     SignHeader,
     SignSteps,

@@ -4,7 +4,7 @@
       <router-link :to="{path: '/'}" class="sign-header__link">
         <img class="sign-header__logo" src="/static/logo.svg" alt="logo">
       </router-link>
-      <a v-if="showLink" class="btn btn--grey btn--w80" :href="linkTo">HIRING?</a>
+      <a v-if="showLink" class="btn btn--grey" :href="linkTo">HIRING?</a>
     </div>
     <div class="sign-header__item">
       <slot></slot>
@@ -82,16 +82,11 @@ export default {
   height: auto;
   padding: 66px 10px 76px;
   box-sizing: border-box;
-  .sign-header__logo {
-    display: inline-block;
-    width: 140px;
-    height: 21px;
-    vertical-align: middle;
-  }
 }
 .sign-header__logo {
   display: inline-block;
-  width: 90px;
-  height: 13px;
+  width: 200.901pt;
+  height: 25.95pt;
+  vertical-align: middle;
 }
 </style>
