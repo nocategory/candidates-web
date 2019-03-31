@@ -66,7 +66,7 @@
           </InputCheckbox>
         </div>
         <div class="profile-edit-about__item profile-edit-about__item--full">
-          <Button v-bind:type="'submit'" text="Save" class="profile-edit-about__btn btn--h40"></Button>
+          <Button v-bind:type="'submit'" text="Save" class="profile-edit-about__btn btn--h40 btn--colorful"></Button>
           <span class="profile-edit-about__msg profile-edit-about__msg--error" v-if="showMessageError">You have unsaved changes</span>
           <span class="profile-edit-about__msg profile-edit-about__msg--success" v-if="showMessageSuccess">Changes saved successfully!</span>
           <span class="profile-edit-about__msg profile-edit-about__msg--loading" v-if="showMessageLoading">

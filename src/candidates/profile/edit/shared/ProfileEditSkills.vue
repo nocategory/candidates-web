@@ -71,7 +71,7 @@
         </ProfileEditSkill>
       </div>
       <div class="skills__actions">
-        <Button v-on:clicked="updateSkills" :type="'button'" :text="'Save'" class="skills__btn btn--h40"></Button>
+        <Button v-on:clicked="updateSkills" :type="'button'" :text="'Save'" class="skills__btn btn--h40 btn--colorful"></Button>
         <span class="skills__msg skills__msg--error" v-if="showMessageError">You have unsaved changes</span>
         <span class="skills__msg skills__msg--success" v-if="showMessageSuccess">Changes saved successfully!</span>
         <span class="skills__msg skills__msg--loading" v-if="showMessageLoading">
