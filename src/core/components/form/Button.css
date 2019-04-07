@@ -4,7 +4,8 @@
   z-index: 1;
   padding: 9px 34px;
   font-size: 15.2pt;
-  font-family: "Montserrat Semibold";
+  font-family: "Montserrat";
+  font-weight: 700;
   color: #fff;
   outline: 0;
   border: 0;
@@ -82,7 +83,6 @@
   background-color: transparent;
   border: 2px solid #52656d;
   font-size: 15.2pt;
-  font-family: "Montserrat Semibold";
   padding: 9px 34px;
   color: #52656d;
   transition: color .3s ease, background-color .3s ease;
