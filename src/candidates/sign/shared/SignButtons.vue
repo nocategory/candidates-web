@@ -9,18 +9,6 @@
   </div>
 </template>
 
-<script>
-import Button from '@/core/components/form/Button';
-import SignHeader from '@/candidates/sign/shared/SignHeader.vue';
-
-export default {
-  components: {
-    Button,
-    SignHeader
-  }
-};
-</script>
-
 <style lang="postcss" scoped src="@/core/components/form/Button.css"></style>
 <style lang="postcss" scoped>
   .sign-header__signup {
